@@ -1,60 +1,16 @@
 package br.com.cep.model;
 
+@SuppressWarnings("unused")
 public class Cep {
 
-  private String cep;
-  
-  private String logradouro;
-  
-  private String complemento;
-  
-  private String bairro;
-  
-  private Cidade cidade;
-  
+	private String cep;
 
-  public String getCep() {
-    return cep;
-  }
+	private String logradouro;
 
-  public void setCep(String cep) {
-    this.cep = cep;
-  }
+	private String complemento;
 
-  public String getLogradouro() {
-    return logradouro;
-  }
+	private String bairro;
 
-  public void setLogradouro(String logradouro) {
-    this.logradouro = logradouro;
-  }
-
-  public String getComplemento() {
-    return complemento;
-  }
-
-  public void setComplemento(String complemento) {
-    this.complemento = complemento;
-  }
-
-  public String getBairro() {
-    return bairro;
-  }
-
-  public void setBairro(String bairro) {
-    this.bairro = bairro;
-  }
-
-  public Cidade getCidade() {
-    return cidade;
-  }
-
-  public void setCidade(Cidade cidade) {
-    this.cidade = cidade;
-  }
-  
-  
-  
-  
+	private Cidade cidade;
 
 }
